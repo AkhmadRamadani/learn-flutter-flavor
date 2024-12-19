@@ -1,0 +1,27 @@
+ide: "vscode"
+flavors:
+  apple:
+    app:
+      name: "Apple App"
+      icon: "assets/icons/apple.png"
+    android:
+      applicationId: "com.example.flavoring.apple"  
+    ios:
+      bundleId: "com.example.flavoring.apple" 
+    config:
+  banana:
+    app:
+      name: "Banana App"
+      icon: "assets/icons/banana.png"
+    android:
+      applicationId: "com.example.flavoring.banana"
+    ios:
+      bundleId: "com.example.flavoring.banana"
+  cherry:
+    app:
+      name: "Cherry App"
+      icon: "assets/icons/cherry.png"
+    android:
+      applicationId: "com.example.flavoring.cherry"
+    ios:
+      bundleId: "com.example.flavoring.cherry"
